@@ -1,0 +1,4 @@
+# Offline-only dependencies (do not install on Railway free tier runtime)
+# Use for local catalog embedding generation only.
+sentence-transformers==3.4.1
+pytest==8.3.5
