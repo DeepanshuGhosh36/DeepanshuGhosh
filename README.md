@@ -27,9 +27,6 @@ python -m app.services.scraper
 Saves normalized catalog to `app/data/catalog.json`. Never runs at API startup.
 
 ## Embedding generation (offline only)
-
-> On Railway free tier, do **not** install `requirements-offline.txt` in the runtime image.
-> Generate embeddings locally and commit/upload `app/data/embeddings.npy` and `app/data/faiss.index`.
 ```bash
 python -m app.services.embedder
 ```
