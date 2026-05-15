@@ -15,6 +15,8 @@ Production-ready stateless FastAPI service for SHL assessment recommendation, cl
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+# optional for offline embedding generation + tests
+pip install -r requirements-offline.txt
 cp .env.example .env
 ```
 
